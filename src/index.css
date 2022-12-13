@@ -1,0 +1,76 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-size: 16px;
+}
+
+.app{
+   width: 600px;
+   margin: auto;
+}
+.checkbox, .remove-btn, .add-btn{
+   display: block;
+}
+
+.checkbox, .remove-btn{
+   width: 20px;
+   height: 20px;
+   cursor: pointer;
+}
+.remove-btn{
+   border: none;
+   border-radius: 50%;
+   color: rgb(255, 1, 1);
+   background-color: transparent;
+}
+.btn-block, .task{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.task{
+   margin: 10px 0;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 15px;
+   border-bottom: 2px #2abca4 solid;
+   border-top: 2px #000000 solid;
+}
+.btn-block{
+   width: 60px;
+}
+.userText-block{
+   width: 350px;
+   margin: auto;
+   display: flex;
+   position: relative;
+   margin-top: 40px;
+   align-items: center;
+}
+.text-input{
+   width: 350px;
+   padding: 10px 55px 10px 30px;
+   border: none;
+   border-radius: 15px;
+   border-bottom: 2px #2abca4 solid;
+   border-top: 2px #000000 solid;
+}
+.add-btn{
+   position: absolute;
+   right: 1%;
+   border: none;
+   border-bottom: 2px #2abca4 solid;
+   border-top: 2px #000000 solid;
+   padding: 5px 10px;
+   background-color: transparent;
+   border-radius: 15px;
+   cursor: pointer;
+}
+.checkbox-add{
+   position: absolute;
+   left: 1%;
+}
+.text-input:focus{
+   outline: none;
+}
